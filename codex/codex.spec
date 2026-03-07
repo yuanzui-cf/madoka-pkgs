@@ -5,8 +5,6 @@ Summary:        OpenAI Codex CLI tool (Rust version)
 License:        MIT
 URL:            https://github.com/openai/codex
 
-BuildRequires:  systemd-rpm-macros
-
 Source0:        https://github.com/openai/codex/releases/download/rust-v%{version}/codex-x86_64-unknown-linux-gnu.tar.gz
 
 %description
@@ -16,6 +14,7 @@ A CLI tool for interacting with OpenAI Codex, written in Rust.
 %autosetup -c -n %{name}-%{version}
 
 %build
+mv codex-x86_64-unknown-linux-gnu codex
 chmod +x codex
 
 %install
