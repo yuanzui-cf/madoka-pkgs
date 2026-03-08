@@ -16,5 +16,5 @@ rpm2cpio %{SOURCE0} | cpio -idmv -D %{buildroot}
 /*
 
 %changelog
-* Mon Mar 09 2026 Leo Jia <im.leojia@gmail.com> - 1.2.3-1
+* Mon Mar 09 2026 Leo Jia <im.leojia@gmail.com> - 3.11.1-1
 - Import official rpm into Madoka OS
