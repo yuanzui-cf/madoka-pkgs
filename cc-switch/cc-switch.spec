@@ -6,6 +6,9 @@ License:        Unknown
 
 Source0:        https://github.com/farion1231/cc-switch/releases/download/v%{version}/CC-Switch-%{version}-Linux-x86_64.rpm
 
+%description
+Repackaging of cc-switch official rpm
+
 %prep
 
 %install
