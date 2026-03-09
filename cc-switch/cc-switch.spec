@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        Repackaging of cc-switch official rpm
 License:        Unknown
 
-Source0:        https://github.com/farion1231/cc-switch/releases/download/v%{version}/CC-Switch-%{version}-Linux-x86_64.rpm
+Source0:        https://github.com/farion1231/cc-switch/releases/download/v%{version}/CC-Switch-v%{version}-Linux-x86_64.rpm
 
 %description
 Repackaging of cc-switch official rpm
