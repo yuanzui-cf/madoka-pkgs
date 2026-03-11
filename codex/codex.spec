@@ -1,7 +1,7 @@
 %global debug_package %{nil}
 
 Name:           codex
-Version:        0.112.0
+Version:        0.114.0
 Release:        1%{?dist}
 Summary:        OpenAI Codex CLI tool (Rust version)
 License:        MIT
@@ -26,5 +26,5 @@ install -D -m 755 codex %{buildroot}%{_bindir}/codex
 %{_bindir}/codex
 
 %changelog
-* Mon Mar 09 2026 Leo Jia <im.leojia@gmail.com> - 0.112.0-1
-- Update to v0.112.0
+* Thr Mar 11 2026 Leo Jia <im.leojia@gmail.com> - 0.114.0-1
+- Update to v0.114.0
