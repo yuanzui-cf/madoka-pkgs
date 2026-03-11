@@ -1,5 +1,5 @@
 Name:           cc-switch
-Version:        3.11.1
+Version:        3.12.0
 Release:        1%{?dist}
 Summary:        Repackaging of cc-switch official rpm
 License:        Unknown
@@ -16,8 +16,10 @@ mkdir -p %{buildroot}
 rpm2cpio %{SOURCE0} | cpio -idmv -D %{buildroot}
 
 %files
-/*
+%{_bindir}/cc-switch
+%{_datadir}/applications/cc-switch.desktop
+%{_datadir}/icons/hicolor/*/apps/cc-switch.*
 
 %changelog
-* Mon Mar 09 2026 Leo Jia <im.leojia@gmail.com> - 3.11.1-1
-- Import official rpm into Madoka OS
+* Thu Mar 11 2026 Leo Jia <im.leojia@gmail.com> - 3.12.0-1
+- Update to 3.12.0
