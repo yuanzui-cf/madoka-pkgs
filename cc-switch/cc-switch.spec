@@ -17,7 +17,7 @@ rpm2cpio %{SOURCE0} | cpio -idmv -D %{buildroot}
 
 %files
 %{_bindir}/cc-switch
-%{_datadir}/applications/cc-switch.desktop
+"%{_datadir}/applications/CC Switch.desktop"
 %{_datadir}/icons/hicolor/*/apps/cc-switch.*
 
 %changelog
